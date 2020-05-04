@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: rgb(214, 218, 217);
+  font-weight: 300;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.h {
+  background: red;
+}
+.h::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+}
+.n {
+  float: right;
+}
+.n .ul1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+}
+.n li {
+  float: left;
+  margin-left: 80px;
+  font-size: 2rem;
+  padding-top: 90px;
+  position: relative;
+}
+.n a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.n a:hover {
+  color: black;
+}
+.n a::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  transition: ease-in-out 250ms;
+}
+
+.n a:hover::after {
+  width: 100%;
+}
+.h1 {
+  position: absolute;
+}
+.t1 {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: black;
+}
+.ul2 a {
+  font-size: 2rem;
+}
+.ul2 .m1 {
+  text-decoration: none;
+}
+.h1 li {
+  margin-top: 0.5rem;
+}
+li a {
+  color: red;
+  position: relative;
+}
+.t1 {
+  color: black;
+  display: inline-block;
+}
+.m1:hover {
+  color: black;
+}
+.m1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: red;
+  position: absolute;
+  transition: ease-in-out 250ms;
+}
+.m1:hover::after {
+  width: 100%;
+}
+.t1:hover {
+  color: red;
+}
+.t1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  transition: ease-in-out 250ms;
+}
+.t1:hover::after {
+  width: 100%;
+}
+.D1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  color: red;
+  background: white;
+}
